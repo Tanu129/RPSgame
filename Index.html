@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-paper-scissors Game</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+        <div id="user-lebel"class="badge">User</div>
+        <div id="computer-lebel"class="badge">Computer</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+        <div id="user-image" class="image">
+            <img src="user-image.png" alt="">
+        </div>
+        <div id="comp-image" class="image">
+            <img src="computer-image.png" alt="">
+        </div>
+    </div>
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="rock-image.png" alt="">
+        </div>
+        <div class="choice" id="p">
+            <img src="paper-image.png" alt="">
+        </div>
+        <div class="choice" id="s">
+            <img src="scissors-image.png" alt="">
+        </div>
+    </div>
+    <p id="action">Make Your Move</p>
+    <script src="App.js"></script>
+</body>
+
+</html>
